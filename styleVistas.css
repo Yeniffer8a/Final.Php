@@ -1,0 +1,67 @@
+div {
+  border: 1px solid gray;
+  padding: 8px;
+}
+
+html { 
+  background: url('../SIVEPHP/background.jpg') no-repeat center fixed; 
+  background-size: cover;
+}
+
+body { 
+  color: black; 
+}
+
+h1 {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+h2 {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.border1
+{
+  border: 0px solid black;
+  text-align: center;
+}
+td, th {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: right;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: bold;
+}
+table {
+  width: 50%;
+  border-collapse: none;
+  border: 0px ;
+
+}
+
+td:hover {border-radius: 0.9; cursor: pointer;}
+
+.button {
+  background-color: #1da1f2; 
+  border: none;
+  color: white;
+  padding: 8px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.button2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.txtBox{
+  border: 1px solid black;
+  padding: 8px;
+  width: 95%;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
